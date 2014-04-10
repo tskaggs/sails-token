@@ -14,9 +14,6 @@
     "bcrypt-nodejs": "0.0.3",
     "express": "~3.5.1",
     "sails-mongo": "~0.9.7",
-    "connect-redis": "~2.0.0",
-    "sails-redis": "~0.9.3",
-    "passport-http-bearer": "~1.0.1",
     "express-jwt": "~0.2.0",
     "jsonwebtoken": "~0.2.0"
   },
