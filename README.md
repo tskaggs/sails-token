@@ -46,11 +46,3 @@ And Thats it
 =====================
 
 This token based authentication system will allow us to use the api that sails builds for us to it's full extent without having to let us rely on sessions to stay authenticated. We can now keep user's authenticated across multiple devices over a long period of time. 
-
-
-
-
-
-
-
-
