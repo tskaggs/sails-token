@@ -19,6 +19,6 @@ module.exports.adapters = {
     module: 'sails-mongo',
     host: 'localhost',
     port: 27017,
-    database: 'sailsapp'
+    database: 'timerthingy'
   }
 };

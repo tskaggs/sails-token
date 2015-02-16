@@ -76,7 +76,9 @@ var RegisterView = Backbone.View.extend({
         });
     }, registerUser: function(ev){
         ev.preventDefault();
+        console.log('ev.currentTarget', ev.currentTarget);
         var data = $(ev.currentTarget).serializeObject();
+        console.log('data', data);
         $.post('http://localhost:1337/user', data, function(data){
             alert("Success!");
             app_router.navigate('#/login');
